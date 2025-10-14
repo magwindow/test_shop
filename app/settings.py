@@ -134,3 +134,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 STRIPE_PUBLISHABLE_KEY = os.getenv('STRIPE_PUBLISHABLE_KEY')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY')
 STRIPE_API_VERSION = '2022-08-01'
+
+# Redis settings
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
