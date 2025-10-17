@@ -130,9 +130,6 @@ LANGUAGES = [
     ('ru', 'Russian'),
 ]
 
-LOCALE_PATHS = [
-    BASE_DIR / 'locale',
-]
 
 # Stripe settings
 STRIPE_PUBLISHABLE_KEY = os.getenv('STRIPE_PUBLISHABLE_KEY')
