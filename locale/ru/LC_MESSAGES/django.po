@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-17 11:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\cart\templates\cart\detail.html:6 .\cart\templates\cart\detail.html:10
+#, fuzzy
+#| msgid "Your cart"
+msgid "Your shopping cart"
+msgstr "Ваша корзина"
+
+#: .\cart\templates\cart\detail.html:14
+#: .\payment\templates\payment\process.html:12
+msgid "Image"
+msgstr "Изображение"
+
+#: .\cart\templates\cart\detail.html:15
+#: .\orders\templates\admin\orders\order\detail.html:71
+#: .\payment\templates\payment\process.html:13
+msgid "Product"
+msgstr "Продукт"
+
+#: .\cart\templates\cart\detail.html:16
+#: .\orders\templates\admin\orders\order\detail.html:73
+#: .\payment\templates\payment\process.html:15
+msgid "Quantity"
+msgstr "Количество"
+
+#: .\cart\templates\cart\detail.html:17
+msgid "Remove"
+msgstr "Удалить из корзины"
+
+#: .\cart\templates\cart\detail.html:18
+msgid "Unit price"
+msgstr "Стоимость"
+
+#: .\cart\templates\cart\detail.html:19
+#: .\orders\templates\admin\orders\order\detail.html:72
+#: .\payment\templates\payment\process.html:14
+msgid "Price"
+msgstr "Общая стоимость"
+
+#: .\cart\templates\cart\detail.html:53
+#, fuzzy
+#| msgid "Total"
+msgid "Subtotal"
+msgstr "Общая сумма"
+
+#: .\cart\templates\cart\detail.html:59
+msgid "coupon"
+msgstr "купон"
+
+#: .\cart\templates\cart\detail.html:69
+#: .\orders\templates\admin\orders\order\detail.html:74
+#: .\orders\templates\admin\orders\order\detail.html:87
+#: .\orders\templates\orders\order\create.html:28
+#: .\payment\templates\payment\process.html:16
+#: .\payment\templates\payment\process.html:32
+msgid "Total"
+msgstr "Общая сумма"
+
+#: .\cart\templates\cart\detail.html:77
+#: .\shop\templates\shop\product\detail.html:27
+msgid "People who bought this also bought"
+msgstr "Вместе с этим покупают"
+
+#: .\cart\templates\cart\detail.html:89
+msgid "Apply a coupon:"
+msgstr "Применить купон:"
+
+#: .\cart\templates\cart\detail.html:96
+msgid "Continue shopping"
+msgstr "Продолжить покупки"
+
+#: .\cart\templates\cart\detail.html:97
+#: .\orders\templates\orders\order\create.html:5
+#: .\orders\templates\orders\order\create.html:9
+msgid "Checkout"
+msgstr "На кассу"
+
+#: .\orders\templates\admin\orders\order\detail.html:5
+#: .\shop\templates\shop\product\list.html:11
+msgid "Categories"
+msgstr "Категории"
+
+#: .\orders\templates\admin\orders\order\detail.html:10
+msgid "Home"
+msgstr "домой"
+
+#: .\orders\templates\admin\orders\order\detail.html:11
+msgid "Orders"
+msgstr "Заказы"
+
+#: .\orders\templates\admin\orders\order\detail.html:12
+msgid "Order"
+msgstr "Заказ"
+
+#: .\orders\templates\admin\orders\order\detail.html:12
+msgid "Detail"
+msgstr "Детальная информация"
+
+#: .\orders\templates\admin\orders\order\detail.html:22
+#, fuzzy
+#| msgid "Your order"
+msgid "Print order"
+msgstr "Распечатать заказ"
+
+#: .\orders\templates\admin\orders\order\detail.html:28
+msgid "Created"
+msgstr "Созданный заказ"
+
+#: .\orders\templates\admin\orders\order\detail.html:32
+msgid "Customer"
+msgstr "Покупатель"
+
+#: .\orders\templates\admin\orders\order\detail.html:36
+msgid "E-mail"
+msgstr "Электронный адрес"
+
+#: .\orders\templates\admin\orders\order\detail.html:40
+msgid "Address"
+msgstr "Адрес"
+
+#: .\orders\templates\admin\orders\order\detail.html:47
+msgid "Total amount"
+msgstr "Общая стоимость"
+
+#: .\orders\templates\admin\orders\order\detail.html:51
+msgid "Status"
+msgstr "Статус"
+
+#: .\orders\templates\admin\orders\order\detail.html:52
+msgid "Paid"
+msgstr "Оплачено"
+
+#: .\orders\templates\admin\orders\order\detail.html:52
+msgid "Pending payment"
+msgstr "Ожидающий платеж"
+
+#: .\orders\templates\admin\orders\order\detail.html:55
+msgid "Stripe payment"
+msgstr "Stripe платеж"
+
+#: .\orders\templates\admin\orders\order\detail.html:67
+msgid "Items bought"
+msgstr "Купленные товары"
+
+#: .\orders\templates\orders\order\create.html:11
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: .\orders\templates\orders\order\create.html:21
+#, python-format
+msgid ""
+"\n"
+"            \"%(code)s\" (%(discount)s%% off)\n"
+"          "
+msgstr ""
+
+#: .\payment\templates\payment\process.html:8
+msgid "Order summary"
+msgstr "Краткое описание заказа"
+
+#: .\shop\templates\shop\base.html:8 .\shop\templates\shop\base.html:14
+msgid "Test shop"
+msgstr "Тестовый магазин"
+
+#: .\shop\templates\shop\base.html:20
+msgid "Your cart"
+msgstr "Ваша корзина"
+
+#: .\shop\templates\shop\base.html:22
+#, python-format
+msgid ""
+"\n"
+"                %(items)s item, $%(total)s\n"
+"              "
+msgid_plural ""
+"\n"
+"                %(items)s item, $%(total)s\n"
+"              "
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\shop\templates\shop\base.html:29
+msgid "Your cart is empty."
+msgstr "Ваша корзина пуста."
+
+#: .\shop\templates\shop\product\detail.html:22
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+#: .\shop\templates\shop\product\list.html:14
+msgid "All"
+msgstr "Все"
+
+#: .\shop\templates\shop\product\list.html:24
+msgid "Products"
+msgstr "Продукты"
